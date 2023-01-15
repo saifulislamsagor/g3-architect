@@ -308,6 +308,48 @@ nav {
 
 /* Sponspors Section Style End */
 
+/* Extra Section Style start */
+
+.extra-section{
+    margin: 80px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.feedback{
+    width: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.feedback:hover{
+    background-color: #FF900E;
+    border: 2px solid #131313;
+border-radius: 5%;
+    
+    
+}
+.speacial-person{
+    font-weight: 500;
+    font-size: 30px;
+    color: #131313;
+}
+.speacial-person-email{
+color:#216b02;
+font-weight: 500;
+font-size: 20px;
+}
+
+
+.feedback-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* Extra Section Style End */
+
 /* Footer Section Style Start */
 footer {
     margin: 15vh 10%;
@@ -398,6 +440,9 @@ footer {
     }
     .sponspors-companies-logo img{
         width: 30%;
+    }
+    .extra-section{
+        flex-direction: column;
     }
     footer {
         margin: 10vh 10% 15vh;
